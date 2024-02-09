@@ -1,6 +1,6 @@
-0. My name is Betty
-mandatory
-Create a script that switches the current user to the user betty.
+Write a script that prints all the groups the current user is part of.
 
-You should use exactly 8 characters for your command (+1 character for the new line)
-You can assume that the user betty will exist when we will run your script
+julien@ubuntu:/tmp/h$ ./2-groups
+julien adm cdrom sudo dip plugdev lpadmin sambashare
+julien@ubuntu:/tmp/h$ 
+Note: depending on the user, you will get a different output.
